@@ -1,0 +1,57 @@
+body {
+    font-family: 'Arial', sans-serif;
+
+}
+
+header {
+    background-color: rgb(117, 117, 225);
+    color: #fff;
+    text-align: center;
+    padding: 20px;
+}
+
+header h1 {
+    margin: 0;
+}
+
+nav ul {
+    list-style: none;
+    padding: 0;
+}
+
+nav li {
+    display: inline;
+    margin-right: 20px;
+}
+
+nav a {
+    text-decoration: none;
+    color: #fff;
+    font-weight: bold;
+    font-size: 1.2em;
+}
+
+a:hover {
+    background-color: blue;
+}
+
+footer {
+    background-color: rgb(117, 117, 225);
+    color: #fff;
+    text-align: center;
+    padding: 10px 0;
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+    font-size: 1.2em;
+}
+
+.proposi {
+    font-weight: bold;
+    text-align: justify;
+    font-size: 1.4em;
+}
+
+.imgi {
+    margin-left: 40%;
+}

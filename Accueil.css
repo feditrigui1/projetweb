@@ -1,0 +1,86 @@
+body {
+    font-family: 'Arial', sans-serif;
+
+}
+
+header {
+    background-color: rgb(117, 117, 225);
+    color: #fff;
+    text-align: center;
+    padding: 20px;
+}
+
+header h1 {
+    margin: 0;
+}
+
+nav ul {
+    list-style: none;
+    padding: 0;
+}
+
+nav li {
+    display: inline;
+    margin-right: 20px;
+}
+
+nav a {
+    text-decoration: none;
+    color: #fff;
+    font-weight: bold;
+    font-size: 1.2em;
+}
+
+a:hover {
+    background-color: blue;
+}
+
+section.apropos img {
+    width: 170px;
+    height: 170px;
+    border-radius: 50%;
+    float: left;
+    margin-right: 20px;
+}
+
+section {
+    height: 250px;
+}
+
+.apropos {
+    max-width: 900px;
+    font-size: 1em;
+    margin: 50px auto;
+    padding: 20px;
+    border: 1px solid #ddd;
+}
+
+
+footer {
+    background-color: rgb(117, 117, 225);
+    color: #fff;
+    text-align: center;
+    padding: 10px 0;
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+    font-size: 1.2em;
+}
+
+.social-icons {
+    display: flex;
+    gap: 20px;
+}
+
+.container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+}
+
+.social-icon {
+    width: 50px;
+    height: 50px;
+    cursor: pointer;
+}
